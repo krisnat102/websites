@@ -1,0 +1,217 @@
+#home{
+    background-image: url('images/background.jpg'); 
+    filter: grayscale(50%);
+}
+
+#landmarks{
+    background-image: url('images/gallery_2.jpg'); 
+    filter: grayscale(50%);
+}
+
+#galery{
+    background-image: url('images/170124.jpg'); 
+    filter: grayscale(50%);
+}
+
+#culture{
+    background-image: url('images/191120121829-asakusa-sensoji-temple-by-joshua-mellin-jdmellingmail-com-joshuamellin.jpg'); 
+    filter: grayscale(50%);
+}
+
+#contacts{
+    background-image: url('images/Tokyo-Shinjuku-by-night-1--ezgif.com-webp-to-png-converter.png'); 
+    filter: grayscale(50%);
+}
+
+header{
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+}
+
+header h1, header p{
+    background-color: rgba(0, 0, 83, 0.384);
+    box-shadow: 0 0 5px 15px rgba(0, 0, 83, 0.384);
+}
+
+.container {
+    display: flex;
+    max-width: 1300px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 3vh 3vw;
+}
+
+.image-section img {
+    width: 100%;
+    height: 80%;
+    display: block;
+    padding-top: 15%;
+}
+
+.content-section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-section h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.content-section p {
+    color: #555;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.content-section button {
+    background: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content-section button:hover {
+    background: black;
+    color: white;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    padding-top: 3%;
+    width: 60%;
+    height: 70vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.galery-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.galery-images img{
+    width: 30%;
+    border-radius: 6px;
+}
+
+.culture-list{
+    display: flex;
+}
+
+.culture-list img{
+    width: 40%;
+    border-radius: 6px;
+    margin: 2%;
+}
+
+.contact-form {
+    width: 90%;
+    padding: 2% 4% 30px 5%;
+    border: 1px solid #f44336;
+    background: #f4433691;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-button{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.map-box{
+    margin: 2% 0 0 5%;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+
+form input[type="text"], 
+form input[type="email"] {
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #1e1e1e;
+    border-radius: 2px;
+}
+
+form textarea {
+    grid-column: span 2;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+    height: 100px;
+}
+
+form button {
+    padding: 5px 5px;
+    border-radius: 4px;
+    border: 1px solid #1e1e1e;
+    cursor: pointer;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+.nav{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    background-color: #f44336;
+    text-align: left;
+    font-size: 18px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0,0.1);
+    width: 100%;
+    overflow: hidden;
+    box-sizing: inherit;
+    display: block;
+    unicode-bidi: isolate;
+    line-height: 1.5;
+}
+
+.nav-button{
+    white-space: normal;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    padding: 12px 24px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.nav-button:hover{
+    color:#000;
+    background-color:#fff
+}
+
+#active-nav-button{
+    color:#000;
+    background-color:#fff
+}
